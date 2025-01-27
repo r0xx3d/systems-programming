@@ -1,3 +1,4 @@
+// compile using gcc
 #include <sys/ptrace.h>
 #include <sys/reg.h>
 #include <sys/wait.h>
