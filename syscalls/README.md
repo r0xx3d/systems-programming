@@ -1,0 +1,2 @@
+Coded syscalls from both libc and in native assmebly(using software interrupts)\n
+Also implemented a syscall tracer which utilizes forking to create a child(process for which we have to trace syscalls) and parent process, the parent process attaches itself to child process and makes use of ptrace() and SIGSTOP to monitor calls for any syscall number and return values that are being returned by the child process.
