@@ -1,3 +1,4 @@
+// compile using gcc
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/syscall.h>
